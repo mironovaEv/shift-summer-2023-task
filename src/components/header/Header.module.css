@@ -1,0 +1,18 @@
+.header {
+  background-color: #ffe9e2;
+}
+
+.loginButton {
+  padding: 5px 35px;
+}
+.loginButton:hover {
+  background-color: #fedcd1;
+  color: black;
+}
+
+.logoutButton {
+  background-color: #ffe9e2;
+  border: 0;
+  color: #585858;
+  font-size: 20px;
+}
