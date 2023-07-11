@@ -11,6 +11,7 @@
 }
 
 .logoutButton {
+  display: none;
   background-color: #ffe9e2;
   border: 0;
   color: #585858;
