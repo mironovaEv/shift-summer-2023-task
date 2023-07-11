@@ -1,0 +1,15 @@
+.label {
+  color: #704e4e;
+  font-weight: 500;
+}
+
+.input {
+  border-radius: 8px;
+  border: 1px solid var(--lightgrey, #949494);
+}
+.input:active {
+  border: 2px solid var(--lightgrey, #949494);
+}
+.input:focus {
+  border: 2px solid var(--lightgrey, #949494);
+}
