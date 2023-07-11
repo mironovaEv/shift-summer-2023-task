@@ -2,14 +2,6 @@
   background-color: #ffe9e2;
 }
 
-.loginButton {
-  padding: 5px 35px;
-}
-.loginButton:hover {
-  background-color: #fedcd1;
-  color: black;
-}
-
 .logoutButton {
   display: none;
   background-color: #ffe9e2;

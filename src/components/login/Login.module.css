@@ -15,20 +15,3 @@
   color: #704e4e;
   font-weight: 500;
 }
-
-.button {
-  height: 40px;
-  border-radius: 8px;
-  background: #f55a5a;
-  border: 0;
-  margin-top: 40px;
-  color: white;
-  font-size: 18px;
-}
-.button:hover {
-  background: #ff9696;
-}
-
-.button:focus {
-  background: #e74848;
-}

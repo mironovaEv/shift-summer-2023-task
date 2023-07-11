@@ -1,5 +1,6 @@
 import { Container, Form } from 'react-bootstrap';
 import styles from './Login.module.css';
+import RedButton from '../ui/buttons/RedButton';
 
 const Login = () => {
   return (
@@ -11,9 +12,7 @@ const Login = () => {
             <Form.Label className={styles.phoneNumber}>Номер телефона*</Form.Label>
             <Form.Control className={styles.input} type="text" />
           </Form.Group>
-          <button className={styles.button} type="submit">
-            Продолжить
-          </button>
+          <RedButton text={'Продолжить'} />
         </Form>
       </div>
     </Container>
