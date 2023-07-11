@@ -8,9 +8,10 @@ const Header = () => {
   return (
     <Navbar data-bs-theme="dark" className={styles.header}>
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand className={styles.brand} href="#home">
           <img src="public/logo.png" />
         </Navbar.Brand>
+
         <LightButton text={'Войти'} />
         <button className={styles.logoutButton}>
           <img className="d-inline align-middle" src="public/logout-vector.svg" />

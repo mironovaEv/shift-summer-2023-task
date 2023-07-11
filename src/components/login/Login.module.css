@@ -1,13 +1,26 @@
 .loginContainer {
-  margin-top: 100px;
+  margin-top: 90px;
+  max-width: 340px;
 }
 @font-face {
   font-family: 'Roboto-Medium';
   src: local('Roboto-Medium'), url('../../fonts/Roboto-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: local('Roboto-Regular'), url('../../fonts/Roboto-Regular.ttf') format('truetype');
 }
 .loginTitle {
   text-align: center;
   font-size: 36px;
   font-weight: 500;
   font-family: 'Roboto-Medium';
+}
+
+.time {
+  padding: 0;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-family: 'Roboto-Regular';
+  font-weight: 400;
 }

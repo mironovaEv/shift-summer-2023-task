@@ -4,11 +4,11 @@ import styles from './Inputs.module.css';
 
 const Control = ({ label, error }) => {
   return (
-    <Form.Group className="p-0">
+    <div className="mb-2">
       <Form.Label className={styles.label}>{label}</Form.Label>
       <Form.Control className={styles.input} type="text" />
       <Form.Text>{error}</Form.Text>
-    </Form.Group>
+    </div>
   );
 };
 
